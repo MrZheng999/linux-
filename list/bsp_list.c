@@ -145,7 +145,7 @@ int DisplayList(P_Node head)
     //     临时指针 = 第一个有效节点
     for (P_Node tmp = head->Next; tmp != head; tmp = tmp->Next)
     {
-        printf("当前节点数据：%s:%s\n", tmp->PahtName, tmp->Type);
+        printf("当前节点 文件路径名：%s  文件类型%s\n", tmp->PahtName, tmp->Type);
     }
 
     return 0;
